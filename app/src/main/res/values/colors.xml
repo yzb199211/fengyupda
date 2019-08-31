@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue">#00B0FF</color>
+    <color name="default_text_color">#000</color>
+    <color name="default_bg_color">#eee</color>
+    <color name="default_content_color">#666666</color>
+    <color name="editor_stroke_gray">#666</color>
+    <color name="editor_solid_gray">#ddd</color>
+    <color name="btn_blue_normal">#1296db</color>
+    <color name="btn_blue_press">#122DDF</color>
+    <color name="gray">#555</color>
+    <color name="black">#000000</color>
+    <color name="white">#fff</color>
+    <color name="form_menu_white">#FCFCED</color>
+
+    <color name="tab_selected">#1296db</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="switch_false">#888</color>
+    <color name="switch_true">#33da33</color>
+    <color name="switch_thumb">#eee</color>
+
+    <color name="bottom_delete">#F39C18</color>
+    <color name="bottom_delete_press">#C57705</color>
+    <color name="bottom_submit">#FFEA00</color>
+    <color name="bottom_submit_press">#E2CF08</color>
+    <color name="bottom_save">#1296db</color>
+    <color name="bottom_save_press">#122DDF</color>
+    <color name="bottom_syn">#1A36FF</color>
+    <color name="bottom_syn_press">#071991</color>
+
+    <color name="red" >#FF0000</color>
+</resources>

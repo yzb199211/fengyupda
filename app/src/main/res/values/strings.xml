@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name1">环鑫仓储RFID</string>
+    <string name="preferenceCache">pdaCache</string>
+
+    <string name="str_login">登录</string>
+    <string name="cancel">取消</string>
+    <string name="submit">确定</string>
+    <string name="str_sweep">扫描二维码</string>
+    <string name="btn_yes">是</string>
+    <string name="btn_no">否</string>
+
+    <string name="refresh">点击刷新数据</string>
+
+    <!--选择弹窗-->
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+    <!--矢量图-->
+    <string name="icon_add">&#xe641;</string>
+    <string name="icon_edit">&#xe6f5;</string>
+    <string name="icon_clear">&#xe645;</string>
+    <string name="icon_clear1">&#xe6df;</string>
+    <string name="icon_remove">&#xe606;</string>
+    <string name="icon_save">&#xe601;</string>
+    <string name="icon_cut">&#xe63c;</string>
+    <string name="icon_ok">&#xe631;</string>
+    <string name="icon_no">&#xe64e;</string>
+    <string name="icon_import">&#xe6b6;</string>
+    <string name="icon_cancel">&#xe650;</string>
+    <string name="icon_reload">&#xe7aa;</string>
+    <string name="icon_search">&#xe873;</string>
+    <string name="icon_print">&#xe666;</string>
+    <string name="icon_help">&#xe611;</string>
+    <string name="icon_undo">&#xe822;</string>
+    <string name="icon_redo">&#xe7cf;</string>
+    <string name="icon_back">&#xe61c;</string>
+    <string name="icon_sum">&#xe810;</string>
+    <string name="icon_tip">&#xe62a;</string>
+    <string name="icon_filter">&#xe734;</string>
+    <string name="icon_man">&#xe71b;</string>
+    <string name="icon_lock">&#xe644;</string>
+    <string name="icon_next">&#xe610;</string>
+    <string name="icon_preview">&#xe712;</string>
+    <string name="icon_todo">&#xe609;</string>
+    <string name="icon_remind">&#xe675;</string>
+    <string name="icon_gg">&#xe628;</string>
+    <string name="icon_calendar">&#xe638;</string>
+    <string name="icon_link">&#xe612;</string>
+    <string name="icon_job">&#xe607;</string>
+    <string name="icon_chart">&#xe61f;</string>
+    <string name="icon_home">&#xe652;</string>
+    <string name="icon_customer">&#xe68d;</string>
+    <string name="icon_export">&#xe6e0;</string>
+    <string name="icon_submit">&#xe620;</string>
+    <string name="icon_submitcancel">&#xe650;</string>
+    <string name="icon_refresh">&#xe7aa;</string>
+    <string name="icon_associate">&#xe62c;</string>
+    <string name="icon_copy">&#xe622;</string>
+    <string name="icon_word">&#xe63e;</string>
+    <string name="icon_book">&#xe664;</string>
+    <string name="icon_list">&#xe68c;</string>
+    <string name="icon_all">&#xe68e;</string>
+    <string name="icon_group">&#xe613;</string>
+    <string name="icon_original">&#xeba0;</string>
+    <string name="icon_now">&#xe7e8;</string>
+    <string name="icon_address">&#xe603;</string>
+    <string name="icon_businessCard">&#xe6e6;</string>
+    <string name="icon_zoomin">&#xe63a;</string>
+    <string name="icon_stop">&#xe72f;</string>
+    <string name="icon_forbidden">&#xe62b;</string>
+    <string name="icon_checkcancel">&#xe62b;</string>
+    <string name="icon_config">&#xe6ea;</string>
+    <string name="icon_system">&#xe625;</string>
+    <string name="icon_purchase">&#xe642;</string>
+    <string name="icon_sale">&#xea8f;</string>
+    <string name="icon_stock">&#xe647;</string>
+    <string name="icon_document">&#xe662;</string>
+    <string name="icon_finance">&#xe653;</string>
+    <string name="icon_finishWork">&#xe62e;</string>
+    <string name="icon_barcode">&#xe616;</string>
+    <string name="icon_form">&#xe605;</string>
+    <string name="icon_warehouse">&#xe604;</string>
+    <string name="icon_order">&#xe70c;</string>
+    <string name="icon_basedata">&#xe64f;</string>
+    <string name="icon_default">&#xe639;</string>
+    <!--pda参数-->
+    <string name="connect">connect</string>
+    <string name="Scan">Scan</string>
+    <string name="get">Get</string>
+    <string name="set">Set</string>
+    <string name="tagOperation">operate</string>
+    <string name="ConfigSetting">config</string>
+    <string name="action_system">systemConfig</string>
+    <string name="Message">Message</string>
+    <string name="systemlayout_textView_system_tv">parameter </string>
+    <string name="systemlayout_button_saveparam">Save </string>
+    <string name="systemlayout_button_paramdefault">default parameter</string>
+    <string name="indicatorlayout_tv_indicator">Check Ants</string>
+    <!--<string name="tab1_layout_textView34">电源管理 </string>-->
+    <!--<string name="tab1_layout_textView5">平台选择 </string>-->
+    <!--<string name="tab1_layout_textView35">连接读写器</string>-->
+    <!--<string name="tab1_layout_textView36">串口 </string>-->
+    <!--<string name="tab1_layout_textView2">天线口 </string>-->
+    <!--<string name="tab1_layout_button_connect">连接 </string>-->
+    <!--<string name="tab1_layout_button_disconnect">断开</string>-->
+    <string name="tab2_layout_button_start">Start</string>
+    <string name="tab2_layout_button_stop">Stop</string>
+    <string name="tab2_layout_button_readclear">Clear</string>
+    <string name="tab2_layout_button_readset">Set </string>
+    <string name="tab2_layout_textView1">Number of tags read：</string>
+    <string name="tab2_layout_textView2">        Total number of tags read：</string>
+    <string name="tab2_layout_textView3">state：</string>
+    <string name="connectSec">connect success</string>
+    <string name="connectFalse">connect fail</string>
+    <string name="powerUpSec">power up success</string>
+    <string name="powerUpFalse">power up fail</string>
+    <string name="tag">blocks</string>
+    <string name="tag6b">UID</string>
+    <string name="hexadecimal">hex</string>
+    <string name="start_address">startAddress</string>
+    <string name="tag_count">blocks</string>
+    <string name="read_operate">read operate</string>
+    <string name="write_operate">write operate</string>
+    <string name="lock_operate">lock opection</string>
+    <string name="lock_type">lock type</string>
+    <string name="selete_antenna">Selete antenna</string>
+    <string name="antenna_detecting">check Antenna</string>
+    <string name="antenna_power">Antenna power</string>
+    <string name="antenna_detect">antenna detect</string>
+    <string name="antenna_no_detect">antenna no detect</string>
+    <string name="antenna1_r">Ate1R</string>
+    <string name="antenna2_r">Ate2R</string>
+    <string name="antenna3_r">Ate3R</string>
+    <string name="antenna4_r">Ate4R</string>
+    <string name="antenna1_w">Ate1W</string>
+    <string name="antenna2_w">Ate2W</string>
+    <string name="antenna3_w">Ate3W</string>
+    <string name="antenna4_w">Ate4W</string>
+    <string name="antenna1">Antenna1 OutputPower</string>
+    <string name="antenna2">Antenna2 OutputPower</string>
+    <string name="antenna3">Antenna3 OutputPower</string>
+    <string name="antenna4">Antenna4 OutputPower</string>
+    <string name="area">area</string>
+    <string name="frequency">frequency</string>
+    <string name="check_frequency">check frequency</string>
+    <string name="set_frequency">set frequency</string>
+    <string name="run_time">runTime</string>
+    <!--zengjia-->
+    <string name="tags_6b">6B tags</string>
+    <string name="tags">tags：</string>
+    <string name="always_lock">permanent locked block</string>
+    <string name="check_Lock_state">check locked state</string>
+    <string name="device_msg">init fail</string>
+    <string name="ReadTags">Read</string>
+    <string name="RWLock">RWLock</string>
+    <string name="Set_title">Set</string>
+    <string name="Real_time">Real</string>
+    <string name="fast_time">Fast</string>
+    <string name="read_state">read start...</string>
+    <string name="stop_read_msg">stop read</string>
+    <string name="clearAll_Wait">Clear all,wait...</string>
+    <string name="please_wait">add data，please wait。。。</string>
+    <string name="wait_operate">wait...</string>
+
+    <!--toast Sub3TabActivity-->
+    <string name="access_password_null">access password is null</string>
+    <string name="write_unsuppose_operate">Dangerous operation!</string>
+    <string name="unsuppose_operate"> not supposed operate</string>
+    <string name="data_length_false">data length is error</string>
+    <string name="locked">locked</string>
+    <string name="unlocked">unlocked</string>
+
+    <!-- Sub4TabActivity -->
+    <string name="powerSet">Power Set</string>
+    <string name="frequencySet">Frequency Set</string>
+    <string name="otherSet">Other Set</string>
+
+    <!--Sub3TabActivity spilocktype-->
+    <string-array name="spilocktypes">
+        <item>unlock</item>
+        <item>lock moment</item>
+        <item>permanent lock</item>
+    </string-array>
+    <string-array name="spilockbanks">
+        <item>access password</item>
+        <item>destroy password</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+</resources>

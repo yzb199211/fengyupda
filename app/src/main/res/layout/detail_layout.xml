@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginBottom="@dimen/dp_10">
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:text="商品数量：0"
+        android:textColor="@color/bottom_save"
+        android:textSize="@dimen/sp_14" />
+
+
+    <ImageView
+        android:id="@+id/iv_clear"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dp_1"
+        android:padding="@dimen/dp_10"
+        android:src="@mipmap/icon_clear" />
+
+    <LinearLayout
+        android:id="@+id/ll_detial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_clear"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@+id/ll_detial"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/iv_add_detail"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="right"
+
+            android:padding="@dimen/dp_5"
+            android:src="@mipmap/icon_scan" />
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_100"
+            android:padding="@dimen/dp_5"
+            android:src="@mipmap/icon_wifi" />
+    </LinearLayout>
+</RelativeLayout>

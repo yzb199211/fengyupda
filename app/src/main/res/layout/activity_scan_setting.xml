@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".scan.ScanSettingActivity">
+
+    <include layout="@layout/top_layout" />
+
+    <TextView
+        android:id="@+id/tv_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_60"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:text="功率:" />
+
+
+    <SeekBar
+        android:id="@+id/sb_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:max="30"
+        android:maxHeight="@dimen/dp_3"
+        android:min="5"
+        android:minHeight="@dimen/dp_3" />
+
+</FrameLayout>

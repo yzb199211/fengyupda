@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg_color"
+    tools:context=".scan.ScanManualActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_layout" />
+
+        <FrameLayout
+            android:id="@+id/fl_stock"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginBottom="@dimen/dp_1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_stock_pos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="点击选择仓位"
+                android:text=""
+                android:textSize="@dimen/sp_14" />
+
+            <ImageView
+                android:id="@+id/iv_stock_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:padding="@dimen/dp_8"
+                android:src="@mipmap/icon_scan" />
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginBottom="@dimen/dp_1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="输入条码"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:singleLine="true"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_scan"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_total"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <include layout="@layout/bottom_layout" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_stock_pos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pickerview_bgColor_overlay"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_stock_pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="输入仓位"
+            android:padding="@dimen/dp_10"
+            android:singleLine="true" />
+    </FrameLayout>
+</FrameLayout>
